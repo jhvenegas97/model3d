@@ -1,0 +1,44 @@
+model-viewer#scene {
+    --poster-color: transparent;
+}
+
+.container-3d {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#scene {
+    width: 800px;
+    height: 900px;
+}
+
+
+/*
+@media screen and (max-width: 480px) {
+    #scene {
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #scene {
+        width: 500px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #scene {
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    #scene {
+        width: 800px;
+        height: 600px;
+    }
+}
