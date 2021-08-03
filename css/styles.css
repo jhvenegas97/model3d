@@ -4,8 +4,8 @@ model-viewer#scene {
 
 .container-3d {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 #scene {
@@ -13,32 +13,37 @@ model-viewer#scene {
     height: 900px;
 }
 
-
-/*
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 450px) {
     #scene {
-        width: 400px;
-        height: 600px;
+        width: 800px;
+        height: 380px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 550px) {
     #scene {
-        width: 500px;
-        height: 600px;
+        width: 800px;
+        height: 550px;
     }
 }
 
-@media screen and (max-width: 1280px) {
-    #scene {
-        width: 600px;
-        height: 600px;
-    }
-}
-
-@media screen and (max-width: 1920px) {
+@media only screen and (min-width: 600px) {
     #scene {
         width: 800px;
         height: 600px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #scene {
+        width: 800px;
+        height: 680px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #scene {
+        width: 800px;
+        height: 900px;
     }
 }
